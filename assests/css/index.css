@@ -2,10 +2,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
 
 body {
     font-family: Verdana, sans-serif;
+    background-color: #F0E9D2;
 }
 
 a{
@@ -25,7 +27,7 @@ root{
     position:fixed;
     top: 0%;
     width: 100%;
-    background-color: rgb(90, 89, 89); 
+    background-color: #181D31; 
 
     margin: auto;
 }
@@ -38,12 +40,12 @@ root{
 }
 .sections>a{
     padding-left: 20px;
-    color: white;
+    color: #F0E9D2;
     font-weight: 600;
 }
 .krunch-logo{
     width: 100px;
-    color: white;
+    color: #F0E9D2;
     font-family: serif;
     font-size: 35px;
     font-weight: 700;
@@ -51,7 +53,8 @@ root{
 }
 
 #nav-profile a{
-    color: white;
+    margin-right: 20px;
+    color: #F0E9D2;
 }
 .nav-bar {
     display: flex;
@@ -67,7 +70,7 @@ root{
     margin-left: 200px;
     padding: 0;
     overflow: hidden;
-    background-color: white;
+    background-color:#F0E9D2;
 }
 
 .nav-bar li {
@@ -129,7 +132,7 @@ img {
     width: auto;
     padding: 16px;
     margin-top: -22px;
-    color: white;
+    color:#F0E9D2;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -266,12 +269,15 @@ img {
 }
 
 .img-container:hover{
+    
     box-shadow: 2px 3px 15px rgb(0 0 0 / 56%)
+    
 }
 
 .img-container img {
     max-width: 100%;
 }
+
 .desc-img{
     margin-top: 5px;
     flex-basis: 100%;
@@ -289,7 +295,7 @@ img {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #282828;
+    background-color:#181D31;
     color: #908F8F;
     margin-top: 100px;
 }
@@ -315,7 +321,7 @@ img {
     text-align: center;
     margin-top: 30px;
     font-family: serif;
-    color: white;
+    color: #F0E9D2;
 }
 
 .about-comp{
@@ -360,7 +366,7 @@ img {
 }
 
 .icons-footer-1{
-    color: white;
+    color: #F0E9D2;
     font-weight: 700;
 }
 
@@ -376,11 +382,11 @@ img {
 }
 
 .icons-footer i{
-    color: white;
+    color: #F0E9D2;
 }
 
 /* .connect-icons-footer a{
-    color: white;
+    color: #F0E9D2;
 } */
 
 .end-footer{
