@@ -22,10 +22,9 @@
                 Handicraft
             </div>
             <div class="sections">
-                <a href="./index.html" class="nav-bar-link">Home</a>
-                <a href="./contact.html" class="nav-bar-link">Contact</a>
-                <a href="./about.html" class="nav-bar-link">About Us</a>
-                                <a href="./hindi/profile.html" class="nav-bar-link">हिंदी में अनुवाद करें</a>
+                <a href="./index.html" class="nav-bar-link">Home/घर</a>
+                <a href="./contact.html" class="nav-bar-link">Contact/संपर्क</a>
+                <a href="./about.html" class="nav-bar-link">About Us/परिचय</a>
             </div>
         </div>
     </nav>
@@ -147,58 +146,58 @@
         <section id="buy-reg1">
             <div class="modern-form" required>
                 <h3>Buyer Registration form</h3>
-
+                <form action="index.php" method="POST">
                 <fieldset class='float-label-field'>
-                    <label for="txtName1">FullName / नाम</label>
-                    <input id="txtName1" type='text' required>
+                    <label for="txtName1" >FullName / नाम</label>
+                    <input id="txtName1" type='text' name="Fullname" required>
                 </fieldset>
                 <fieldset class='float-label-field'>
                     <label for="Address1">Address Line1 / पता पंक्ति 1</label>
-                    <input id="Address1" type='text' required>
+                    <input id="Address1" type='text' name="Add1" required>
                 </fieldset>
                 <fieldset class='float-label-field'>
                     <label for="Address2">Address Line2 / पता पंक्ति 2</label>
-                    <input id="Address2" type='text'>
+                    <input id="Address2" type='text' name="Add2">
                 </fieldset>
                 <fieldset class='float-label-field'>
                     <label for="town1">Town/City / शहर</label>
-                    <input id="town1" type='text' required>
+                    <input id="town1" type='text' name="Town" required>
                 </fieldset>
                 <fieldset class='float-label-field'>
                     <label for="state1">State / राज्य</label>
-                    <input id="state1" type='text' required>
+                    <input id="state1" type='text' name="State" required>
                 </fieldset>
                 <fieldset class='float-label-field'>
                     <label for="Pincode1">PinCode / पिन कोड</label>
-                    <input id="Pincode1" type='text' required>
+                    <input id="Pincode1" type='text'name="Pincode" required>
                 </fieldset>
 
                 <fieldset class='float-label-field'>
                     <label for="bankName">Bank Name</label>
-                    <input id="bankName" type='text' required>
+                    <input id="bankName" type='text' name="BankName" required>
                 </fieldset>
                 <fieldset class='float-label-field'>
                     <label for="branchName">Branch Name</label>
-                    <input id="branchName" type='text' required>
+                    <input id="branchName" type='text' name="BranchName" required>
                 </fieldset>
                 <fieldset class='float-label-field'>
                     <label for="ifscCode">Ifsc Code</label>
-                    <input id="ifscCode" type='number' required>
+                    <input id="ifscCode" type='number' name="IfscCode" required>
                 </fieldset>
 
                 <fieldset class='float-label-field'>
                     <label for="Account-num">Account Number</label>
-                    <input id="Account-num" type='number' required>
+                    <input id="Account-num" type='number' name="AccountNumber" required>
                 </fieldset>
 
                 <fieldset class='float-label-field'>
                     <label for="txtEmail2">Email</label>
-                    <input id="txtEmail2" type='email' required>
+                    <input id="txtEmail2" type='email' name="Email" required>
                 </fieldset>
 
                 <fieldset class='float-label-field'>
                     <label for="number2">Mobile Number</label>
-                    <input id="number2" type='number' required>
+                    <input id="number2" type='number' name="MobileNumber" required>
                 </fieldset>
 
                 <fieldset class='float-label-field'>
@@ -208,8 +207,9 @@
                 </fieldset>
 
                 <fieldset class='float-label-field'>
-                    <input type="submit" id="art-submit">
+                    <input type="submit" id="art-submit"  name="submit">
                 </fieldset>
+                </form>
             </div>
         </section>
         <div class="footer-cont">
